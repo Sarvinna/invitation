@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#1a1008">
+<title>Хожиакбар и Севара · 26.09.26</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="mobile-page">
+
+  <!-- ================= КНОПКА МУЗЫКИ ================= -->
+  <button class="music-btn" id="musicBtn" aria-label="Включить музыку">
+    <span class="music-icon">♪</span>
+  </button>
+
+  <!-- ================= АУДИО ================= -->
+  <audio id="bgMusic" loop preload="auto">
+    <source src="assets/music.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="warm-overlay"></div>
+    <div class="magic-glow"></div>
+    <div class="vignette"></div>
+
+    <!-- Боке-огоньки -->
+    <div class="bokeh" aria-hidden="true">
+      <span></span><span></span><span></span>
+      <span></span><span></span><span></span>
+      <span></span><span></span><span></span>
+      <span></span><span></span><span></span>
+    </div>
+
+    <!-- Светлячки (hero) -->
+    <div class="fireflies" aria-hidden="true">
+      <i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i>
+    </div>
+
+    <!-- Магические искры -->
+    <div class="sparkles" aria-hidden="true">
+      <b></b><b></b><b></b><b></b><b></b><b></b>
+      <b></b><b></b><b></b><b></b><b></b><b></b>
+    </div>
+
+    <div class="arch-border" aria-hidden="true">
+      <span class="arch-top"></span>
+    </div>
+
+    <div class="hero-content">
+      <div class="top-ornament reveal">❦</div>
+      <div class="eyebrow reveal" data-delay="1">ДОРОГИЕ<br>РОДНЫЕ И БЛИЗКИЕ!</div>
+
+      <p class="intro reveal" data-delay="2">
+        С огромной радостью приглашаем вас<br>
+        на наше торжество, которое станет<br>
+        одним из самых счастливых дней<br>
+        в нашей жизни.
+      </p>
+
+      <h1 class="reveal" data-delay="3">
+        Приглашаем<br>
+        на свадьбу<br>
+        <span class="names">Хожиакбара<br>и Севары</span>
+      </h1>
+
+      <div class="divider reveal" data-delay="4"><i></i><b>❦</b><i></i></div>
+      <div class="date reveal" data-delay="4">26.09.26</div>
+
+      <div class="details-row reveal" data-delay="5">
+        <div class="detail">
+          <div class="detail-icon">◷</div>
+          <strong>12:00</strong>
+          <span>Церемония</span>
+        </div>
+        <div class="detail">
+          <div class="detail-icon">⌖</div>
+          <strong>ул. Жура Алиева 7</strong>
+          <span>Место торжества</span>
+        </div>
+        <div class="detail">
+          <div class="detail-icon">✦</div>
+          <strong>Сторона</strong>
+          <span>невесты</span>
+        </div>
+      </div>
+
+      <div class="closing reveal" data-delay="5">Будем очень рады<br>видеть вас!</div>
+    </div>
+
+    <!-- ================= СВЕЧИ ================= -->
+    <div class="candles" aria-hidden="true">
+      <div class="candle candle-a">
+        <span class="glow"></span>
+        <span class="flame"></span>
+        <span class="wick"></span>
+        <div class="glass"><div class="wax"></div></div>
+      </div>
+      <div class="candle candle-b">
+        <span class="glow"></span>
+        <span class="flame"></span>
+        <span class="wick"></span>
+        <div class="glass"><div class="wax"></div></div>
+      </div>
+      <div class="candle candle-c">
+        <span class="glow"></span>
+        <span class="flame"></span>
+        <span class="wick"></span>
+        <div class="glass"><div class="wax"></div></div>
+      </div>
+      <div class="candle candle-d">
+        <span class="glow"></span>
+        <span class="flame"></span>
+        <span class="wick"></span>
+        <div class="glass"><div class="wax"></div></div>
+      </div>
+      <div class="candle candle-e">
+        <span class="glow"></span>
+        <span class="flame"></span>
+        <span class="wick"></span>
+        <div class="glass"><div class="wax"></div></div>
+      </div>
+      <div class="candle candle-f">
+        <span class="glow"></span>
+        <span class="flame"></span>
+        <span class="wick"></span>
+        <div class="glass"><div class="wax"></div></div>
+      </div>
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true">↓</div>
+  </section>
+
+  <!-- ================= STORY ================= -->
+  <section class="section story">
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <div class="fireflies" aria-hidden="true">
+      <i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i>
+    </div>
+
+    <div class="section-inner reveal">
+      <div class="section-kicker">НАШ ОСОБЕННЫЙ ДЕНЬ</div>
+      <h2>Разделите с нами<br><em>этот момент</em></h2>
+      <p>Мы будем счастливы видеть вас рядом в этот особенный вечер. Пусть он наполнится теплом, улыбками и дорогими сердцу воспоминаниями.</p>
+      <div class="gold-line"></div>
+      <div class="small-note">Ваше присутствие — самый ценный подарок.</div>
+    </div>
+
+    <div class="section-divider" aria-hidden="true"></div>
+  </section>
+
+  <!-- ================= COUNTDOWN ================= -->
+  <section class="section countdown-section">
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <div class="fireflies" aria-hidden="true">
+      <i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i>
+    </div>
+
+    <div class="section-inner reveal">
+      <div class="section-kicker">ДО НАШЕГО ДНЯ ОСТАЛОСЬ</div>
+      <h2>Совсем<br><em>немного</em></h2>
+
+      <div class="countdown" id="countdown">
+        <div class="count-item">
+          <div class="count-num" id="cd-days">--</div>
+          <div class="count-label">дней</div>
+        </div>
+        <div class="count-item">
+          <div class="count-num" id="cd-hours">--</div>
+          <div class="count-label">часов</div>
+        </div>
+        <div class="count-item">
+          <div class="count-num" id="cd-minutes">--</div>
+          <div class="count-label">минут</div>
+        </div>
+        <div class="count-item">
+          <div class="count-num" id="cd-seconds">--</div>
+          <div class="count-label">секунд</div>
+        </div>
+      </div>
+
+      <div class="gold-line"></div>
+      <div class="small-note">Мы ждём вас с нетерпением</div>
+    </div>
+
+    <div class="section-divider" aria-hidden="true"></div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <div class="footer-ornament reveal">❦</div>
+    <div class="reveal" data-delay="1">26 · 09 · 26</div>
+  </footer>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
